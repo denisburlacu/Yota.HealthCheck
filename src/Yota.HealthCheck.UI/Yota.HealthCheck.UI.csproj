@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net5.0;net5.0-windows;</TargetFrameworks>
+        <Version>1.0.0</Version>
+        <PackageVersion>1.0.0</PackageVersion>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <Title>Yota.HealtchCheck.UI</Title>
+        <PackageProjectUrl>https://github.com/denisburlacu/Yota.HealthCheck</PackageProjectUrl>
+        <RootNamespace>Yota.HealthCheck.UI</RootNamespace>
+        <Authors>Denis Burlacu</Authors>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Yota.HealthCheck\Yota.HealthCheck.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+        <PackageReference Include="Microsoft.AspNetCore.Routing" Version="2.2.2" />
+        <PackageReference Include="AspNetCore.HealthChecks.UI" Version="5.0.0" />
+        <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>

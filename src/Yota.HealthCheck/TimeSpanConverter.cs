@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace Yota.HealtchCheck.Controller
+namespace Yota.HealthCheck
 {
     internal class TimeSpanConverter : JsonConverter<TimeSpan>
     {

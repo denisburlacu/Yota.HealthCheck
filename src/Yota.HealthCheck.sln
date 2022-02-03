@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EADEF2D2-F0F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yota.HealthCheck", "Yota.HealthCheck\Yota.HealthCheck.csproj", "{27D830DE-D843-45D8-811A-13BFEA36CD15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yota.HealthCheck.UI", "Yota.HealthCheck.UI\Yota.HealthCheck.UI.csproj", "{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +16,13 @@ Global
 		{27D830DE-D843-45D8-811A-13BFEA36CD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27D830DE-D843-45D8-811A-13BFEA36CD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27D830DE-D843-45D8-811A-13BFEA36CD15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{27D830DE-D843-45D8-811A-13BFEA36CD15} = {EADEF2D2-F0F7-4FE6-BB66-92A885AF9190}
+		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF} = {EADEF2D2-F0F7-4FE6-BB66-92A885AF9190}
 	EndGlobalSection
 EndGlobal

@@ -1,4 +1,4 @@
-﻿namespace Yota.HealtchCheck
+﻿namespace Yota.HealthCheck
 {
     public class HealthCheckOptions
     {

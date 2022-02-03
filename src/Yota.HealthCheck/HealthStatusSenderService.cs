@@ -12,9 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using RestSharp;
-using Yota.HealtchCheck.Controller;
 
-namespace Yota.HealtchCheck
+namespace Yota.HealthCheck
 {
     public class HealthStatusSender : IHostedService, IDisposable
     {

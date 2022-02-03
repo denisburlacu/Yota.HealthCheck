@@ -3,9 +3,9 @@ using System.Threading;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 
-namespace Yota.HealtchCheck.Controller
+namespace Yota.HealthCheck.UI.Controller
 {
-    [Route("health-check-provider")]
+    [System.Web.Mvc.Route("health-check-provider")]
     public abstract class HealthCheckProviderController : ControllerBase
     {
         private readonly IMemoryCache _memoryCache;
