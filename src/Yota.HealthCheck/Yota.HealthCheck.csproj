@@ -27,8 +27,9 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="AspNetCore.HealthChecks.UI.Core" Version="5.0.0"/>
-        <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7"/>
-        <PackageReference Include="RestSharp" Version="106.11.5-alpha.0.21"/>
+        <PackageReference Include="AspNetCore.HealthChecks.UI" Version="5.0.0" />
+        <PackageReference Include="AspNetCore.HealthChecks.UI.Core" Version="5.0.0" />
+        <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
+        <PackageReference Include="RestSharp" Version="106.11.5-alpha.0.21" />
     </ItemGroup>
 </Project>

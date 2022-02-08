@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yota.HealthCheck", "Yota.He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yota.HealthCheck.UI", "Yota.HealthCheck.UI\Yota.HealthCheck.UI.csproj", "{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1CA9C561-7D08-41F4-BB40-DFE74251901C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Server", "..\tests\Playground.Server\Playground.Server.csproj", "{15FBA911-DDCB-49B7-A15F-AEBB3211CE2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Client", "Playground.Client\Playground.Client.csproj", "{D6A46BDE-E6E7-4600-8509-48C35DA4A50D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +26,19 @@ Global
 		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FBA911-DDCB-49B7-A15F-AEBB3211CE2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FBA911-DDCB-49B7-A15F-AEBB3211CE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FBA911-DDCB-49B7-A15F-AEBB3211CE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FBA911-DDCB-49B7-A15F-AEBB3211CE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A46BDE-E6E7-4600-8509-48C35DA4A50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A46BDE-E6E7-4600-8509-48C35DA4A50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A46BDE-E6E7-4600-8509-48C35DA4A50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A46BDE-E6E7-4600-8509-48C35DA4A50D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{27D830DE-D843-45D8-811A-13BFEA36CD15} = {EADEF2D2-F0F7-4FE6-BB66-92A885AF9190}
 		{BC98C2FD-5F64-47DC-9A09-6235D6CCFCDF} = {EADEF2D2-F0F7-4FE6-BB66-92A885AF9190}
+		{15FBA911-DDCB-49B7-A15F-AEBB3211CE2F} = {1CA9C561-7D08-41F4-BB40-DFE74251901C}
+		{D6A46BDE-E6E7-4600-8509-48C35DA4A50D} = {1CA9C561-7D08-41F4-BB40-DFE74251901C}
 	EndGlobalSection
 EndGlobal

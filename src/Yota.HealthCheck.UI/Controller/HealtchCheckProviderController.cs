@@ -18,8 +18,13 @@ namespace Yota.HealthCheck.UI.Controller
         [HttpGet("{consumerName}")]
         public ActionResult Get(string consumerName)
         {
+            if (consumerName == "robots.txt")
+            {
+                return Ok("hop ham");
+            }   
+            
             var isInitialised = _memoryCache.Get<bool>("health-initialised");
-
+            
             if (!isInitialised)
             {
                 Thread.Sleep(TimeSpan.FromSeconds(15));
